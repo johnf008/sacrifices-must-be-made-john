@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://b280jq417uwpe" path="res://green.png" id="3_lquwl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7mycd"]
-size = Vector2(130, 131)
+size = Vector2(53, 56.5)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_272bh"]
 texture = ExtResource("3_lquwl")
@@ -1094,12 +1094,12 @@ position = Vector2(525, 396)
 script = ExtResource("1_h2yge")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
-position = Vector2(0.5, -0.5)
-scale = Vector2(1.0078125, 1.0078125)
+position = Vector2(-34.99999, 5.5)
+scale = Vector2(0.40625018, 0.44531247)
 texture = ExtResource("2_1bvp3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
-position = Vector2(0, -0.5)
+position = Vector2(-34.5, 4.25)
 shape = SubResource("RectangleShape2D_7mycd")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
